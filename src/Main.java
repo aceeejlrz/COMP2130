@@ -40,7 +40,7 @@ public class Main {
 
     // Display menu options
     private static void displayMenu() {
-        System.out.println("\n=== University Student Management System ===");
+        System.out.println("\n--= University Student Management System =--");
         System.out.println("1. Add Undergraduate Student");
         System.out.println("2. Add Graduate Student");
         System.out.println("3. View All Students");

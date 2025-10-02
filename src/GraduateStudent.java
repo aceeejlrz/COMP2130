@@ -38,7 +38,7 @@ public class GraduateStudent extends Student{
     private int yearOfEntry;
     private String thesisTopic;
 
-    // gradate method
+    // graduate method
     @Override
     public boolean graduate() {
         return Average() > 70;
