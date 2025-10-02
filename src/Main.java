@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Submitted by: Jezrel Dela Cruz, Date: September 23, 2025");
 
         boolean running = true;
+
         while (running) {
             displayMenu();
             int choice = getValidChoice();
@@ -84,7 +85,7 @@ public class Main {
                 }
             }
 
-            System.out.println("Enter Address Details:");
+            System.out.println("----- Enter Address Details ----");
             System.out.print("Street: ");
             String street = scanner.nextLine();
             System.out.print("City: ");
@@ -137,7 +138,7 @@ public class Main {
                 }
             }
 
-            System.out.println("Enter Address Details:");
+            System.out.println("---- Enter Address Details: ----");
             System.out.print("Street: ");
             String street = scanner.nextLine();
             System.out.print("City: ");
